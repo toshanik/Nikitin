@@ -30,5 +30,15 @@ touch KeyFriend.txt
 nano KeyFriend.txt
 gpg --import KeyFriend.txt
 
+git log --oneline
 git tag -v Test1
 git verify-commit cbc5227
+
+git add -A
+git commit
+git push -u origin master
+
+mkdir AlienRepo
+cd AlienRepo
+git init
+git clone https://github.com/Kostyansa/Novozhilov_git7
