@@ -36,9 +36,13 @@ git verify-commit cbc5227
 
 git add -A
 git commit
+<<<<<<< HEAD
 git push -u origin master
 
 mkdir AlienRepo
 cd AlienRepo
 git init
 git clone https://github.com/Kostyansa/Novozhilov_git7
+=======
+git push -u origin master
+>>>>>>> 26f26f012a6793da5193eef3d685b0444b785b4a
